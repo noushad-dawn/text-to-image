@@ -14,11 +14,14 @@ h1 {
 }
 
 .container {
-    width: 50%;
-    max-width: 800px;
+    width: 90%;
+    height: 80%;
     margin: 2vh auto;
     border: 2px solid grey;
-    overflow: hidden; /* Prevent image from overflowing its container */
+    border-radius: 10px;
+    object-fit: cover;
+
+    
 }
 
 .text-field {
@@ -41,20 +44,20 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-
-#image {
-    max-width: 50%;
-    height: auto; 
-    /* Ensure image maintains its aspect ratio */
+img{
+    width: 100%;
+    height: 100%;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 600px) {
+
+
+
+/* @media screen and (max-width: 600px) {
     .container {
         padding: 10px;
     }
 
     .text-field {
-        min-height: 100px; /* Adjust the minimum height */
+        min-height: 100px; 
     }
-}
+} */
